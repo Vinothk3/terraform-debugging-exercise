@@ -1,0 +1,13 @@
+# Example values for terraform.tfvars
+# Copy this file to terraform.tfvars and update values
+
+aws_region   = "us-west-2"
+environment  = "dev"
+vpc_name     = "main-vpc"
+cluster_name = "main-cluster"
+
+# Use a real container image from ECR or Docker Hub
+container_image = "nginx:latest"
+
+app_port      = 80
+desired_count = 2
