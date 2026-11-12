@@ -103,7 +103,7 @@ Verify application is listening on correct port, check security groups, review h
 ## File Structure
 
 ```
-fixed-terraform/
+test-a-terraform-debugging/
 ├── README.md
 ├── bug_report.md
 ├── providers.tf
